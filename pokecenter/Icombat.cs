@@ -6,7 +6,7 @@ namespace pokecenter
 {
     public interface ICombatReady
     {
-        int Attack(ICombatReady opponent);
-        bool IsWon();
+        void Attacking();
+        void IsWon();
     }
 }
