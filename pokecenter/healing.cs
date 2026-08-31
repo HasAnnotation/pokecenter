@@ -7,6 +7,8 @@ namespace pokecenter
     public interface IHealing
     {
         void IHealing();
+       rfref
+        
         string Staus();
     }
 }
